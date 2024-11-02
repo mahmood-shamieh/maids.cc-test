@@ -1,0 +1,26 @@
+{
+	"id": "11554569-3b7d-4b81-bf3b-18f84f9642c6",
+	"name": "maids.cc",
+	"values": [
+		{
+			"key": "serverUrl",
+			"value": "127.0.0.1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "port",
+			"value": "8080",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "adminToken",
+			"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJlbWFpbFwiOlwibWFobW9vZEBtYWhtb29kLm1haG1vb2QxMFwiLFwicGFzc3dvcmRcIjpcIjEyMzQ1Njc4OVwiLFwidG9rZW5cIjpudWxsfSIsImlhdCI6MTczMDU0MTExMSwiZXhwIjoxNzMwNTQxMTExfQ.sWV2YumlPTVJPdreA0mloYLpyfCxGjC57mBWF1iuaTvqWgWfiluhHnV_GDi6u6sqrLVhZqFDw_8lPZqe95zOQg",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-11-02T15:19:46.145Z",
+	"_postman_exported_using": "Postman/11.18.2"
+}

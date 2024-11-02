@@ -1,0 +1,29 @@
+"filename", "language", "Java", "Properties", "Gradle", "Batch", "comment", "blank", "total"
+"c:\Users\asus rog\Desktop\maids.cc\build.gradle", "Gradle", 0, 0, 33, 0, 3, 7, 43
+"c:\Users\asus rog\Desktop\maids.cc\gradle\wrapper\gradle-wrapper.properties", "Properties", 0, 7, 0, 0, 0, 1, 8
+"c:\Users\asus rog\Desktop\maids.cc\gradlew.bat", "Batch", 0, 0, 0, 41, 32, 22, 95
+"c:\Users\asus rog\Desktop\maids.cc\settings.gradle", "Gradle", 0, 0, 1, 0, 0, 1, 2
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\TestApplication.java", "Java", 11, 0, 0, 0, 0, 5, 16
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\controllers\BooksController.java", "Java", 129, 0, 0, 0, 0, 14, 143
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\controllers\BorrowingRecordsController.java", "Java", 87, 0, 0, 0, 4, 5, 96
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\controllers\PatronsController.java", "Java", 127, 0, 0, 0, 0, 13, 140
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\BookDTO.java", "Java", 31, 0, 0, 0, 2, 10, 43
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\BorrowingRecordDTO.java", "Java", 19, 0, 0, 0, 0, 4, 23
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\PatronDTO.java", "Java", 27, 0, 0, 0, 1, 10, 38
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\ResponseDTO.java", "Java", 38, 0, 0, 0, 0, 14, 52
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\exceptions\FieldsValidationException.java", "Java", 13, 0, 0, 0, 0, 5, 18
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\exceptions\NotFoundException.java", "Java", 6, 0, 0, 0, 0, 2, 8
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\models\Book.java", "Java", 39, 0, 0, 0, 0, 10, 49
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\models\BorrowingRecord.java", "Java", 30, 0, 0, 0, 0, 8, 38
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\models\Patron.java", "Java", 33, 0, 0, 0, 1, 4, 38
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\repositories\BooksRepo.java", "Java", 11, 0, 0, 0, 0, 10, 21
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\repositories\BorrowingRecordsRepo.java", "Java", 12, 0, 0, 0, 1, 5, 18
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\repositories\PatronsRepo.java", "Java", 11, 0, 0, 0, 0, 5, 16
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\services\BooksService.java", "Java", 78, 0, 0, 0, 0, 20, 98
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\services\BorrowingRecordsServices.java", "Java", 67, 0, 0, 0, 0, 12, 79
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\services\PatronsService.java", "Java", 79, 0, 0, 0, 0, 19, 98
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\validation\groups\BookValidation1.java", "Java", 3, 0, 0, 0, 1, 2, 6
+"c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\validation\groups\PatronsValidation1.java", "Java", 3, 0, 0, 0, 0, 2, 5
+"c:\Users\asus rog\Desktop\maids.cc\src\main\resources\application.properties", "Properties", 0, 7, 0, 0, 0, 0, 7
+"c:\Users\asus rog\Desktop\maids.cc\src\test\java\cc\maids\test\TestApplicationTests.java", "Java", 9, 0, 0, 0, 0, 5, 14
+"Total", "-", 863, 14, 34, 41, 45, 215, 1212

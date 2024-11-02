@@ -1,0 +1,843 @@
+{
+	"info": {
+		"_postman_id": "5ab2de4e-9d85-43ab-ae7d-4b31d039671f",
+		"name": "maids.cc exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24715480"
+	},
+	"item": [
+		{
+			"name": "books",
+			"item": [
+				{
+					"name": "Retrieve a list of all books",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/books",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/books",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"books"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Retrieve a specific book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/books/2",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"books",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/books/3",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"books",
+										"3"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Delete Specific Book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/books/4",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"books",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/books/3",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"books",
+										"3"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Add a new book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"author\":10,\r\n    \"title\":\"book Title\",\r\n    \"isbn\":11,\r\n    \"publicationYear\":\"20\",\r\n    \"available\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/books",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"author\":10,\r\n    \"title\":\"book Title\",\r\n    \"isbn\":10,\r\n    \"publicationYear\":\"20\",\r\n    \"available\":1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/books",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"books"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Update an Existing book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"author\":10,\r\n    \"title\":\"book Title\",\r\n    \"isbn\":1,\r\n    \"publicationYear\":\"20\",\r\n    \"available\":0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/books/1",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"books",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"author\":10,\r\n    \"title\":\"book Title\",\r\n    \"isbn\":10,\r\n    \"publicationYear\":\"20\",\r\n    \"available\":1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/books/1",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"books",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "patrons",
+			"item": [
+				{
+					"name": "Retrieve a list of all patrons",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/patrons",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"patrons"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/books",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"books"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Retrieve a specific patron",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/patrons/40",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"patrons",
+								"40"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/patrons/3",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"patrons",
+										"3"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Delete specific patron",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/patrons/1",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"patrons",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/patrons/1",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"patrons",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Authenticate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"mahmood@mahmood.mahmood11\",\r\n    \"password\":\"1111111\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/patrons/authenticate",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"patrons",
+								"authenticate"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":10,\r\n    \"email\":\"mahmood@mahmood.mahmood1\",\r\n    \"password\":\"123456789\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/patrons",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"patrons"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Add a new patron",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":10,\r\n    \"email\":\"mahmood@mahmood.mahmood11\",\r\n    \"password\":\"11111111\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/patrons",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"patrons"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":10,\r\n    \"email\":\"mahmood@mahmood.mahmood1\",\r\n    \"password\":\"123456789\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/patrons",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"patrons"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Update an existing patron",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":10,\r\n    \"email\":\"mahmood@mahmood.mahmood\",\r\n    \"password\":\"123456789\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/patrons/3",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"patrons",
+								"3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":10,\r\n    \"email\":\"mahmood@mahmood.mahmood\",\r\n    \"password\":\"123456789\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/patrons/1",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"patrons",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "borrowing records",
+			"item": [
+				{
+					"name": "Borrow a book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":10,\r\n    \"email\":\"mahmood@mahmood.mahmood1\",\r\n    \"password\":\"123456789\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/borrow/2/patron/1",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"borrow",
+								"2",
+								"patron",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/borrow/1/patron/1",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"borrow",
+										"1",
+										"patron",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": "",
+							"header": [
+								{}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "return of a borrowed book by a patron",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://{{serverUrl}}:{{port}}/api/return/1/patron/1",
+							"protocol": "http",
+							"host": [
+								"{{serverUrl}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"return",
+								"1",
+								"patron",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{serverUrl}}:{{port}}/api/return/1/patron/1",
+									"protocol": "http",
+									"host": [
+										"{{serverUrl}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"api",
+										"return",
+										"1",
+										"patron",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": "",
+							"header": [
+								{}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

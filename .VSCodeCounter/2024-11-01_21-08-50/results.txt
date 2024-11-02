@@ -1,0 +1,78 @@
+Date : 2024-11-01 21:08:50
+Directory : c:\Users\asus rog\Desktop\maids.cc
+Total : 27 files,  952 codes, 45 comments, 215 blanks, all 1212 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Java       |         22 |        863 |         10 |        184 |      1,057 |
+| Batch      |          1 |         41 |         32 |         22 |         95 |
+| Gradle     |          2 |         34 |          3 |          8 |         45 |
+| Properties |          2 |         14 |          0 |          1 |         15 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |         27 |        952 |         45 |        215 |      1,212 |
+| . (Files)                                                                                                  |          3 |         75 |         35 |         30 |        140 |
+| gradle                                                                                                     |          1 |          7 |          0 |          1 |          8 |
+| gradle\wrapper                                                                                             |          1 |          7 |          0 |          1 |          8 |
+| src                                                                                                        |         23 |        870 |         10 |        184 |      1,064 |
+| src\main                                                                                                   |         22 |        861 |         10 |        179 |      1,050 |
+| src\main\java                                                                                              |         21 |        854 |         10 |        179 |      1,043 |
+| src\main\java\cc                                                                                           |         21 |        854 |         10 |        179 |      1,043 |
+| src\main\java\cc\maids                                                                                     |         21 |        854 |         10 |        179 |      1,043 |
+| src\main\java\cc\maids\test                                                                                |         21 |        854 |         10 |        179 |      1,043 |
+| src\main\java\cc\maids\test (Files)                                                                        |          1 |         11 |          0 |          5 |         16 |
+| src\main\java\cc\maids\test\controllers                                                                    |          3 |        343 |          4 |         32 |        379 |
+| src\main\java\cc\maids\test\dto                                                                            |          4 |        115 |          3 |         38 |        156 |
+| src\main\java\cc\maids\test\exceptions                                                                     |          2 |         19 |          0 |          7 |         26 |
+| src\main\java\cc\maids\test\models                                                                         |          3 |        102 |          1 |         22 |        125 |
+| src\main\java\cc\maids\test\repositories                                                                   |          3 |         34 |          1 |         20 |         55 |
+| src\main\java\cc\maids\test\services                                                                       |          3 |        224 |          0 |         51 |        275 |
+| src\main\java\cc\maids\test\validation                                                                     |          2 |          6 |          1 |          4 |         11 |
+| src\main\java\cc\maids\test\validation\groups                                                              |          2 |          6 |          1 |          4 |         11 |
+| src\main\resources                                                                                         |          1 |          7 |          0 |          0 |          7 |
+| src\test                                                                                                   |          1 |          9 |          0 |          5 |         14 |
+| src\test\java                                                                                              |          1 |          9 |          0 |          5 |         14 |
+| src\test\java\cc                                                                                           |          1 |          9 |          0 |          5 |         14 |
+| src\test\java\cc\maids                                                                                     |          1 |          9 |          0 |          5 |         14 |
+| src\test\java\cc\maids\test                                                                                |          1 |          9 |          0 |          5 |         14 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\asus rog\Desktop\maids.cc\build.gradle                                                            | Gradle     |         33 |          3 |          7 |         43 |
+| c:\Users\asus rog\Desktop\maids.cc\gradle\wrapper\gradle-wrapper.properties                                | Properties |          7 |          0 |          1 |          8 |
+| c:\Users\asus rog\Desktop\maids.cc\gradlew.bat                                                             | Batch      |         41 |         32 |         22 |         95 |
+| c:\Users\asus rog\Desktop\maids.cc\settings.gradle                                                         | Gradle     |          1 |          0 |          1 |          2 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\TestApplication.java                        | Java       |         11 |          0 |          5 |         16 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\controllers\BooksController.java            | Java       |        129 |          0 |         14 |        143 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\controllers\BorrowingRecordsController.java | Java       |         87 |          4 |          5 |         96 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\controllers\PatronsController.java          | Java       |        127 |          0 |         13 |        140 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\BookDTO.java                            | Java       |         31 |          2 |         10 |         43 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\BorrowingRecordDTO.java                 | Java       |         19 |          0 |          4 |         23 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\PatronDTO.java                          | Java       |         27 |          1 |         10 |         38 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\dto\ResponseDTO.java                        | Java       |         38 |          0 |         14 |         52 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\exceptions\FieldsValidationException.java   | Java       |         13 |          0 |          5 |         18 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\exceptions\NotFoundException.java           | Java       |          6 |          0 |          2 |          8 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\models\Book.java                            | Java       |         39 |          0 |         10 |         49 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\models\BorrowingRecord.java                 | Java       |         30 |          0 |          8 |         38 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\models\Patron.java                          | Java       |         33 |          1 |          4 |         38 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\repositories\BooksRepo.java                 | Java       |         11 |          0 |         10 |         21 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\repositories\BorrowingRecordsRepo.java      | Java       |         12 |          1 |          5 |         18 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\repositories\PatronsRepo.java               | Java       |         11 |          0 |          5 |         16 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\services\BooksService.java                  | Java       |         78 |          0 |         20 |         98 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\services\BorrowingRecordsServices.java      | Java       |         67 |          0 |         12 |         79 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\services\PatronsService.java                | Java       |         79 |          0 |         19 |         98 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\validation\groups\BookValidation1.java      | Java       |          3 |          1 |          2 |          6 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\java\cc\maids\test\validation\groups\PatronsValidation1.java   | Java       |          3 |          0 |          2 |          5 |
+| c:\Users\asus rog\Desktop\maids.cc\src\main\resources\application.properties                               | Properties |          7 |          0 |          0 |          7 |
+| c:\Users\asus rog\Desktop\maids.cc\src\test\java\cc\maids\test\TestApplicationTests.java                   | Java       |          9 |          0 |          5 |         14 |
+| Total                                                                                                      |            |        952 |         45 |        215 |      1,212 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
